@@ -1,16 +1,13 @@
-root =                     true
+root =        true
 
-[*]
-charset =                  utf-8
-indent_style =             space
-indent_size =              2
-end_of_line =              lf
-insert_final_newline =     true
-trim_trailing_whitespace = true
+[fontawesome-webfont.svg]
+charset =     utf-8
+end_of_line = lf
 
-[*.js]
-trim_trailing_whitespace = false
-insert_final_newline =     false
+[*.{html, css}]
+charset =     utf-8
+end_of_line = lf
 
-[*.{html, json}]
-insert_final_newline =     false
+[style.css]
+charset =     utf-8
+end_of_line = crlf
